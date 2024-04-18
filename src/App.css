@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.text {
+  resize: none;/* para que no se mueva*/
+  width: 220px;
+  height: 40px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  /*flexbox */
+  margin-top: 15px;
+}
+
+.card {
+  display: flex;
+  /*tarjeta como flexbox */
+}
+
+.box {
+  flex: 1;
+  /* Hace que las cajas ocupen el mismo espacio dentro de la tarjeta */
+  padding: 2px 55px 2px 55px;
+  /* Añade algo de espacio entre las cajas */
+  border: 2px solid #686868;
+  background-color: #f1e0d08e;
+  white-space: nowrap;
+  /* Evita que el texto se divida en varias líneas */
+}
+
+.title {
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 5px;/*título del contenido */
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#914f73af;
+  text-align: center;
+  padding: 20px 65px;
+  font-weight: bold;
+}

@@ -1,0 +1,9 @@
+body {
+  /* background-color:#4F7391; */
+  background-image: url('../img/fondo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
